@@ -1,0 +1,47 @@
+.App {
+  text-align: center;
+}
+
+header{
+  height: 100px;
+  background-color: #333;
+  color: white;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+}
+header h1{
+ flex: 1;
+}
+div.meme img{
+   width: 800px;
+   height: 400px;
+}
+h2.top{
+  margin-top:-350px;
+  font-size: 2em;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 1px;
+}
+h2.bottom{
+  margin-top:220px;
+  font-size: 3em;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 1px;
+}
+input[type='text']{
+  padding: 20px;
+  width: 280px;
+  font-size: 20px;
+  margin: 10px;
+}
+button{
+  padding: 14px;
+  font-size: 32px;
+  font-weight: bolder;
+  border-radius: 10px;
+  margin: 10px;
+  cursor: pointer;
+}
